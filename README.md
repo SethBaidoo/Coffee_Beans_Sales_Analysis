@@ -74,7 +74,7 @@ are the dimentional tables. They are connected to the "Orders" table via common 
 ![](data_model.png)
 ## Analysis & Visualization
 
-Some advance calculation were performed using Data Analysis Expression in Power Pivot
+Some advance calculations were performed using Data Analysis Expression in Power Pivot. 
 To calculate the Profit Margin percentage and Number of transactions the following DAX was written.
 ``` DAX
 =DIVIDE([Sum of Profit],[Sum of Total_Revenue],0)
