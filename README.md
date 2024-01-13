@@ -80,6 +80,11 @@ To calculate the Profit Margin percentage and Number of transactions the followi
 =DIVIDE([Sum of Profit],[Sum of Total_Revenue],0)
 =COUNTROWS(orders)
 ```
+
+![](time_series_dashboard.png)
+
+1. It is observed that 2019,2020 and 2021 were above average in terms of profit, transaction and revenue. Profit wise, these 3 contribute 83% of the market share.
+2. 
 ## Findings
 - The Company's sales have been steadily increasing over the past years, with a noticeable peak in 2021.
 - Arabica is the most preferred Coffee type by Customers but Liberica is the most profitable Coffee type with a 36%  of
