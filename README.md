@@ -1,4 +1,5 @@
 # BestBeansCrafters Coffee Sales Analysis
+![](coffee.jpg)
 
 ## Project Overview 
 
@@ -70,7 +71,7 @@ To enable efficient retrieval of the data during analysis the tables were connec
 using Power Pivot. In the model, the "Orders" table is the fact table. The "Customers" and "Products" tables
 are the dimentional tables. They are connected to the "Orders" table via common columns: "ProductID" and 
 "CustomerID". A (1:*) relationship is created among the tables.
-
+![](coffee-data-model.png)
 ## Analysis & Visualization
 
 Some advance calculation were performed using Data Analysis Expression in Power Pivot
