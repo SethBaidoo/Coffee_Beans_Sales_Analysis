@@ -1,5 +1,5 @@
 # BestBeansCrafters Coffee Sales Analysis
-![](coffeepex.jpeg)
+![](cof.jpeg)
 
 ## Project Overview 
 
@@ -95,10 +95,14 @@ It calculates the Profit Margin percentage and Number of transactions.
 
 The analysis was made under three different themes(Time, Customer and Product) while visualization is across three tabs.
 The first (time series dashboard) is displayed below
+
 ![](time_series_dashboard.png)
 
-1. It is observed that 2019,2020 and 2021 were above average in terms of profit, transaction and revenue. Profit-wise, these 3 contribute 83% of the market share.
-2. 
+1. It is observed that 2019,2020 and 2021 were above average in terms of profit, transaction and revenue. Profit-wise, these 3 contribute 83% of the market share. As shown below:
+
+   | Profit By Year|Transaction By Year| Revenue By Year|
+   ----------------|-------------------|----------------|
+   |![](Prof.png   |![](trans.png      |![](rev.png)    |
 ## Findings
 - The Company's sales have been steadily increasing over the past years, with a noticeable peak in 2021.
 - Arabica is the most preferred Coffee type by Customers but Liberica is the most profitable Coffee type with 36%  of
