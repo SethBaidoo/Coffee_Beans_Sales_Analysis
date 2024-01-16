@@ -1,30 +1,6 @@
 # BestBeansCrafters Coffee Sales Analysis
 ![](cof.jpeg)
 
-## Table of Contents
-
-[Project Overview](project-overview)
-
-[Disclaimer](disclaimer)
-
-[Problem Statement](problem-statement)
-
-[Tools](tools)
-
-[Data Sources](data-sources)
-
-[Data Cleaning/Transformation](data-cleaning/transformation)
-
-[Data Modelling](data-modelling)
-
-[Analysis & Visualization](analysis-&-visualization)
-
-[Findings](findings)
-
-[Recommendation](recommendation)
-
-[Data & Report Limitations](data-&-report-limitations)
-
 ## Project Overview 
 
 This data analysis project aims to provide insights into the sales performance of an imaginary
