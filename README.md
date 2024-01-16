@@ -1,5 +1,5 @@
 # BestBeansCrafters Coffee Sales Analysis
-![](coffee.jpg)
+![](coffeepex.jpeg)
 
 ## Project Overview 
 
@@ -86,13 +86,15 @@ are the dimensional tables. They are connected to the "Order" table via common c
 ![](data_model.png)
 ## Analysis & Visualization
 
-Some advanced calculations were performed using Data Analysis Expression in Power Pivot. 
-To calculate the Profit Margin percentage and Number of transactions the following DAX was written.
+ Advanced calculations were performed using Data Analysis Expression in Power Pivot to aid the analysis. The DAX code written is shown below: 
 ``` DAX
 =DIVIDE([Sum of Profit],[Sum of Total_Revenue],0)
 =COUNTROWS(orders)
 ```
+It calculates the Profit Margin percentage and Number of transactions.
 
+The analysis was made under three different themes(Time, Customer and Product) while visualization is across three tabs.
+The first (time series dashboard) is displayed below
 ![](time_series_dashboard.png)
 
 1. It is observed that 2019,2020 and 2021 were above average in terms of profit, transaction and revenue. Profit-wise, these 3 contribute 83% of the market share.
