@@ -1,6 +1,30 @@
 # BestBeansCrafters Coffee Sales Analysis
 ![](cof.jpeg)
 
+## Table of Contents
+
+[Project Overview](project-overview)
+
+[Disclaimer](disclaimer)
+
+[Problem Statement](problem-statement)
+
+[Tools](tools)
+
+[Data Sources](data-sources)
+
+[Data Cleaning/Transformation](data-cleaning/transformation)
+
+[Data Modelling](data-modelling)
+
+[Analysis & Visualization](analysis-&-visualization)
+
+[Findings](findings)
+
+[Recommendation](recommendation)
+
+[Data & Report Limitations](data-&-report-limitations)
+
 ## Project Overview 
 
 This data analysis project aims to provide insights into the sales performance of an imaginary
@@ -93,12 +117,10 @@ are the dimensional tables. They are connected to the "Order" table via common c
 ```
 It calculates the Profit Margin percentage and Number of transactions.
 
-The analysis was made under two different themes(Time series and others:Products,location and Customer) while visualization is across three tabs.
-The time series and others visualizations are displayed below:
+The analysis was made under two different themes(Time series and other: Products, location and Customer) while visualization is across three tabs.
+The visualizations are displayed below:
 
-![](time_series_dashboard.png)
 
-![](Product_customer_Dashboard.png)
 
 1. It is observed that t 2019,2020 and 2021 were consistently high above average in terms of profit, transaction and revenue. Profit-wise, these 3 contribute 83% of the market share. However, 2021 is the most profitable year. As shown below:
 
@@ -106,20 +128,32 @@ The time series and others visualizations are displayed below:
    ----------------|-------------------|----------------|
    |![](Prof.png)   |![](trans.png)      |![](rev.png)  |
 
-2. March, June and October is the most profitable months with a 29% profit share. Visualiztion is shown below:
-   ![](profmonths.png)
+2. March, June and October are the most profitable months with a 29% profit share. Visualization is shown below:
+![](profmonths.png)
 
 3. The light roast coffee brought in 37% of the total profit.
-
-    ![](Profitable_roastType.png)
-
-5. Arabica coffee was the most sold coffee type with a total of 947.
-
    
-7. More than half of the total profit were from non-loyal customers
-8. Washington is the city accruded most profit. It brought in $34.
+![](Profitable_roastType.png)
 
-         
+4. Arabica coffee was the most sold coffee type with a total of 947.
+   
+![](Sold.png)
+   
+5. More than half of the total profit was from non-loyal customers.
+   
+![](loayl.png)
+   
+6. Washington is the city that accrued the most profit. It brought in $34.
+    
+![](cities.png).
+
+The dashboard are displayed below:
+![](time_series_dashboard.png)
+
+![](Product_customer_Dashboard.png)
+
+![](recomdash.png)
+
 ## Findings
 - The Company's sales have been steadily increasing over the past years, with a noticeable peak in 2021.
 - Arabica is the most preferred Coffee type by Customers but Liberica is the most profitable Coffee type with 36%  of
@@ -145,4 +179,5 @@ Total profit market share
 [CISCO](skillsforAll.com)
 
 [Data with Decision](https://www.youtube.com/c/datawithdecision)
- 
+
+# Thank You!
