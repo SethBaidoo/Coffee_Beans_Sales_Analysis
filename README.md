@@ -82,7 +82,7 @@ To enable efficient retrieval of the data during analysis the key tables needed 
 A star schema model was created 
 using Power Pivot. In the model, the "Order" table is the fact table. The "Customer" and "Product" tables
 are the dimensional tables. They are connected to the "Order" table via common columns: "ProductID" and 
-"CustomerID". A (*:1) relationship is created among the tables.
+"CustomerID". A One-to-Many (1:*) relationship is created among the tables.
 ![](data_model.png)
 ## Analysis & Visualization
 
